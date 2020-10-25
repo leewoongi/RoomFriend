@@ -1,4 +1,4 @@
-package com.woon.roomfriends.repos.entity;
+package com.woon.roomfriends.data.entity;
 
 public class UserVo {
 

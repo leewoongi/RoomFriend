@@ -1,4 +1,4 @@
-package com.woon.roomfriends.utill;
+package com.woon.roomfriends.ui.utill;
 
 import android.view.View;
 import android.view.WindowManager;

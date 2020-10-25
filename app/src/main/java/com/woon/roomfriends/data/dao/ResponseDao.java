@@ -1,4 +1,6 @@
-package com.woon.roomfriends.repos.entity;
+package com.woon.roomfriends.data.dao;
+
+import com.woon.roomfriends.data.entity.UserVo;
 
 import java.util.List;
 
