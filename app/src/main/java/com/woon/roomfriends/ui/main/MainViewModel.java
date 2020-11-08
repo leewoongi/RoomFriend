@@ -28,7 +28,7 @@ public class MainViewModel extends ViewModel implements MainCallback {
     }
 
     @Override
-    public void OnAddDataSuccess(List<UserVo> list) {
+    public void onAddDataSuccess(List<UserVo> list) {
         _userVoList.postValue(list);
     }
 

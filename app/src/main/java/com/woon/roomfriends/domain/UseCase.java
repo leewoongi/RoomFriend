@@ -22,7 +22,7 @@ public class UseCase {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe((item) -> {
                     // onSuccess
-                    callback.OnAddDataSuccess(item.getItems());
+                    callback.onAddDataSuccess(item.getItems());
                 }, (throwable -> {
                     // onFailed
                     Log.d("error", "TT.. " + throwable.getMessage());
